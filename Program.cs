@@ -16,5 +16,8 @@ class Program
 
         Console.WriteLine ("X'in yeni değeri: " + x);
 
+        DateTime tarih= DateTime.Now;
+        Console.WriteLine ("Mevcut tarih: "+ tarih.ToString());
+
     }
 }
